@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://airports.shareyourgroup.com/sitemap.xml

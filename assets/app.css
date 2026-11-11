@@ -1,0 +1,10 @@
+/* airports: code tile, lists */
+.ahero{display:flex;gap:18px;align-items:flex-start;flex-wrap:wrap}
+.ahero>div:last-child{flex:1 1 260px;min-width:0}
+.codebig{font:500 2.4rem/1 var(--mono);letter-spacing:.08em;padding:22px 18px;border-radius:16px;background:var(--surface);border:2px solid var(--teal);color:var(--accent);flex:none}
+.grid a span{min-width:0}
+.clock b{font-family:var(--mono);font-size:1.1rem}
+.card h2{margin:0;font-size:1.1rem}
+td small{font-size:.82rem}
+.az a{min-width:40px;min-height:40px}
+.sug b{font-family:var(--mono)}
