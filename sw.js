@@ -1,4 +1,4 @@
-const CACHE = 'syg-airports-e0f1f5a1ec', SHELL = ["/assets/site.css?v=74b38bddfd", "/assets/site.js?v=be6129bb4a", "/icons/logo-light.webp", "/icons/logo-dark.webp"];
+const CACHE = 'syg-airports-cdc110db81', SHELL = ["/assets/site.css?v=1f799d5064", "/assets/site.js?v=be6129bb4a", "/icons/logo-light.webp", "/icons/logo-dark.webp"];
 self.addEventListener('install', e => { self.skipWaiting(); e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).catch(() => {})); });
 self.addEventListener('activate', e => e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k.indexOf('syg-') === 0 && k !== CACHE).map(k => caches.delete(k)))).then(() => self.clients.claim())));
 self.addEventListener('fetch', e => {
